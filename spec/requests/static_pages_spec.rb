@@ -10,7 +10,7 @@ describe "StaticPages" do
 
     it "should hava the title 'Home'" do
       visit '/static_pages/home'
-      page.should have_selector('title', 'Fenbi | Home')
+      page.should have_selector('title', 'Fenbi')
     end
   end
 
